@@ -1,6 +1,6 @@
 import { getSaludo } from "../base-pruebas/02-template-string";
 
-
+//we can omit describe to create extra groups and run all tests at once
 describe('Pruebas grupales',() =>{
     test('String function test', () =>{
         const message1='Hola Miguel';
@@ -9,5 +9,4 @@ describe('Pruebas grupales',() =>{
         expect(message1).toBe(message2);
         expect()
     });
-    
 });
