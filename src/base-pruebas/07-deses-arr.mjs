@@ -1,6 +1,7 @@
 
-
+//Desestructuracion
 const personajes = ['Goku','Vegeta','Trunks'];
+//To ignore first and second elemetns just get 3rd
 const [ , , p3 ] = personajes;
 console.log( p3 );
 

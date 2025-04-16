@@ -1,4 +1,4 @@
-import { getHeroeById } from './bases/08-imp-exp'
+import { getHeroeById } from './08-imp-exp.mjs'
 
 // const promesa = new Promise( (resolve, reject) => {
 
@@ -41,3 +41,6 @@ const getHeroeByIdAsync = ( id ) => {
 getHeroeByIdAsync(1)
     .then( console.log )
     .catch( console.warn );
+getHeroeByIdAsync(100)
+    .then( console.log )
+    .catch( "warning" );

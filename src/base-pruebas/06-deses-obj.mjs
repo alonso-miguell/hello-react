@@ -16,7 +16,7 @@ const persona = {
 const usContext = ({ clave, nombre, edad, rango = 'Capitán' }) => {
 
 
-    // console.log( nombre, edad, rango );
+    console.log(`Within function ${nombre} : ${rango}` );
     
     return {
         nombreClave: clave,

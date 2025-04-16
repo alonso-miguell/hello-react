@@ -1,4 +1,4 @@
-import { retornaArreglo } from "../base-pruebas/07-deses-arr";
+import { retornaArreglo } from "../base-pruebas/07-deses-arr.mjs";
 
 describe('test 07', () => {
 
