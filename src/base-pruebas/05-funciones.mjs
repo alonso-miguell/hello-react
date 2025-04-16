@@ -4,10 +4,12 @@
 //     return `Hola, ${ nombre }`;
 // }
 
+// arrow function
 const saludar2 = ( nombre ) => {
     return `Hola, ${ nombre }`;
 }
 
+//arrow function simplified
 const saludar3 = ( nombre ) => `Hola, ${ nombre }`;
 const saludar4 = () => `Hola Mundo`;
 

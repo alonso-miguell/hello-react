@@ -1,5 +1,10 @@
 # Just some react, ts/js basics
 
+## Random notes
+* Add something like `"myScript": "node src/base-pruebas/05-funciones.mjs"` to `package.json` to run custom scripts
+* Can add `"type": "module"` to `package.json` to run js files without changing `index.js`
+* Or can rename them to `*.mjs` format
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,4 +1,4 @@
-import { getUser, getUsuarioActivo } from "../base-pruebas/05-funciones";
+import { getUser, getUsuarioActivo } from "../base-pruebas/05-funciones.mjs";
 
 describe('tests for functions file', ()=> { 
 
