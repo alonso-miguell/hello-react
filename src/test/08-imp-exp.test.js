@@ -1,5 +1,5 @@
 import { getHeroeById, getHeroesByOwner } from "../base-pruebas/08-imp-exp.mjs";
-import { heroes } from "../data/heroes.mjs";
+import { heroes } from "../data/heroes.ts";
 
 describe("heroes suite", () => {
 
