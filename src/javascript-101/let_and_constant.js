@@ -45,6 +45,9 @@ console.log('Propiedad: '+personaje.poder);
 
 /** However using ... (spread operator) doesn't include object properties within other objects...
  * for that we should use structuredClone
+ *
+ * ... creates a shallow copy (copia superficial)
+ * structuredClone creates a deep copy (copia profunda)
  */
 
 const vincent=structuredClone(personaje);

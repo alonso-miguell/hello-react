@@ -4,17 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MyComponent } from './MyComponent';
-import { CounterApp } from './CounterApp';
+// import { CounterApp } from './CounterApp';
+import './base-pruebas/11-async-await.ts'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
-root.render(
-  <React.StrictMode>
-    <CounterApp ></CounterApp>
-
-  </React.StrictMode>
-);
+// root.render(
+//   <React.StrictMode>
+//     {/*<CounterApp ></CounterApp>*/}
+//
+//   </React.StrictMode>
+// );
 
 /*
 root.render(
